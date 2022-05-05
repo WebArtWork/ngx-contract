@@ -9,6 +9,12 @@ import { ContractModule } from 'src/app/modules';
 	],
 })
 ```
+# Import Contract Service & Modal: 
+your_page.component.ts
+export class YourPageComponent{
+	constructor(public modal:ModalService, public cr: ContractService) {}
+}
+```
 # Add button that opens modal to create New Contract:
 your_page.component.html
 ```
