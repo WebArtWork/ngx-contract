@@ -1,5 +1,6 @@
 # client: waw add ngx-contract
-# Import contract module: your_page.module.ts
+# Import contract module: 
+your_page.module.ts
 ```
 import { ContractModule } from 'src/app/modules';
 @NgModule({
