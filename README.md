@@ -3,10 +3,9 @@ Add contract module in this way:
 ```
 Import contract module to your page:
 ```
-your_page.module.ts
+# your_page.module.ts
 ```
 import { ContractModule } from 'src/app/modules';
-```
 @NgModule({
 	imports: [
 		ContractModule
