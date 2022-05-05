@@ -15,6 +15,7 @@ export class YourPageComponent{
 	constructor(public modal:ModalService, public cr: ContractService) {}
 }
 ```
+```
 # Add button that opens modal to create New Contract:
 your_page.component.html
 ```
