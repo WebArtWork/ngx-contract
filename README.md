@@ -1,7 +1,9 @@
 Add contract module in this way:
 # client: waw add ngx-contract
-
+```
+```
 # Import contract module 
+```
 ```
 your_page.module.ts
 ```
