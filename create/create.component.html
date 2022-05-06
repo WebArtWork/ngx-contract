@@ -1,0 +1,7 @@
+<div *ngFor="let user of users">
+  <p>Company name: {{title}}</p>
+  <p>User name/id: {{user.name || user._id }}</p>
+  <strong>User e-mail: {{user.email}}</strong>
+  <button (click)="cs.create(contract); counter()">Contract create</button>
+</div>
+

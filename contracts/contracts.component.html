@@ -1,0 +1,6 @@
+<div *ngFor="let contract of cr.contracts">
+  <p>Status: {{ contract.status | json }}</p>
+  <p>Contract ID: {{ contract._id | json }} </p>
+  <button (click)="changeStatus(contract,'Accepted')">Accept</button>
+  <button (click)="changeStatus(contract,'Declined'); cr.delete(contract)">Decline</button>
+</div>
