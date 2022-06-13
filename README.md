@@ -28,3 +28,6 @@ your_page.component.html
 ```
 
 # Find waw-contract and and do it step by step
+```
+https://github.com/WebArtWork/waw-contract
+```
