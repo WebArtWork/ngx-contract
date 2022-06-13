@@ -25,3 +25,4 @@ your_page.component.html
 your_page.component.html
 ```
 <button (click)="cr.open_contract(cr.contracts)">Open Contracts</button>
+# Find waw-contract and and do it step by step
